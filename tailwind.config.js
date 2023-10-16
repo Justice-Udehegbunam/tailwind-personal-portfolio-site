@@ -2,7 +2,12 @@
 module.exports = {
   content: ['./build/*.html'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'sans': ['Poppins', 'sans'],
+        'serif': ['Montserrat', 'serif'],
+      },
+    },
   },
   plugins: [],
 }
